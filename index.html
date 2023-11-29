@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,245 +7,245 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <div class="main-container">
         <header class="header">
-            <div class="header-main-cont ">
-                <div class="container flex">
-                    <div class="tab-menu-logo" id="menu-btn">
-                        <span class="material-symbols-outlined tab-menu">
-                            menu
-                        </span>
-                    </div>
-                    <div class="logo">
-                        <a href="#">
-                            <img src="images/header/logo.png" alt="Logo with name">
-                        </a>
-                    </div>
-                    <div class="search-box">
-                        <form action="" class="glob-search-form">
-                            <span class="material-symbols-outlined search-icon">
-                                search
+            <div class="header-container">
+                <div class="header-main-cont ">
+                    <div class="container flex">
+                        <div class="tab-menu-logo" id="menu-btn">
+                            <span class="material-symbols-outlined tab-menu">
+                                menu
                             </span>
-                            <input class="search-input" placeholder="Search Store">
-                        </form>
-                    </div>
-                    <div class="right-sec flex">
-                        <div class="sign-link">
-                            <a href="#">SIGN IN</a>
-                            <span>or</span>
-                            <a href="#">REGISTER</a>
                         </div>
-                        <div class="cart-count">
-                            <a href="#" class="flex">
-                                <span class="cart-txt">CART</span>
-                                <p class="count flex">1</p>
+                        <div class="logo">
+                            <a href="#">
+                                <img src="images/header/logo.png" alt="Logo with name">
                             </a>
+                        </div>
+                        <div class="search-box">
+                            <form action="" class="glob-search-form">
+                                <span class="material-symbols-outlined search-icon">
+                                    search
+                                </span>
+                                <input class="search-input" placeholder="Search Store">
+                            </form>
+                        </div>
+                        <div class="right-sec flex">
+                            <div class="sign-link">
+                                <a href="#">SIGN IN</a>
+                                <span>or</span>
+                                <a href="#">REGISTER</a>
+                            </div>
+                            <div class="cart-count">
+                                <a href="#" class="flex">
+                                    <span class="cart-txt">CART</span>
+                                    <p class="count flex">1</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <hr class="divider-line">
-            <div class="nav-cont">
-                <ul class="nav-links flex" id="link-container">
-                    <li class="link" data-id="DC-multi" >
-                        <a href="" class="flex">
-                            <span>DC Multiverse</span>
-                            <span class="material-symbols-outlined drop-down-icon">
-                                expand_more
-                            </span>
-                        </a>
-                    </li>
-                    <div class="tab-view-links">
-                        <ul>
-                            <li><a href="#">DC Multiverse 2-Packs</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL DC MULTIVERSE</a>
+                <hr class="divider-line">
+                <div class="nav-cont">
+                    <ul class="nav-links flex" id="link-container">
+                        <li class="link tab-active-link" data-id="DC-multi">
+                            <div href="" class="flex">
+                                <span>DC Multiverse</span>
+                                <span class="material-symbols-outlined drop-down-icon">
+                                    expand_more
+                                </span>
+                            </div>
+                        </li>
+                        <div class="tab-view-links">
+                            <ul>
+                                <li><a href="#">DC Multiverse 2-Packs</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL DC MULTIVERSE</a>
+                        </div>
+                        <li class="link" data-id="">
+                            <div href="" class="flex">
+                                <span>Movies & TV</span>
+                                <span class="material-symbols-outlined drop-down-icon movies">
+                                    expand_more
+                                </span>
+                            </div>
+                        </li>
+                        <li class="link tab-active-link" data-id="gaming" >
+                            <div href="" class="flex">
+                                <span> Gaming</span>
+                                <span class="material-symbols-outlined drop-down-icon">
+                                    expand_more
+                                </span>
+                            </div>
+                        </li>
+                        <div class="tab-view-links">
+                            <ul>
+                                <li><a href="#">Five Nights at Freddy’s</a></li>
+                                <li><a href="">Mortal Kombat</a></li>
+                                <li><a href=""> Shark Shark</a></li>
+                                <li><a href="">The Witcher</a></li>
+                                <li><a href="">Warhammer 40000</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL GAMING</a>
+                        </div>
+                        <li class="link tab-active-link" data-id="anime">
+                            <div href="" class="flex">
+                                <span> Anime</span>
+                                <span class="material-symbols-outlined drop-down-icon">
+                                    expand_more
+                                </span>
+                            </div>
+                        </li>
+                        <div class="tab-view-links">
+                            <ul>
+                                <li><a href="#">My Hero Academia</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL ANIME</a>
+                        </div>
+                        <li class="link tab-active-link" data-id="comics">
+                            <div href="" class="flex">
+                                <span> Comics</span>
+                                <span class="material-symbols-outlined drop-down-icon">
+                                    expand_more
+                                </span>
+                            </div>
+                        </li>
+                        <div class="tab-view-links">
+                            <ul>
+                                <li><a href="#">Spawn</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL COMICS</a>
+                        </div>
+                        <li class="link" id="6">
+                            <div href="" class="flex">
+                                <span> & More…</span>
+                                <span class="material-symbols-outlined drop-down-icon more">
+                                    expand_more
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="tab-sign-in">
+                        <a href="#">SIGN IN</a>
+                        <p>or</p>
+                        <a href="#">REGISTER</a>
                     </div>
-                    <li class="link" data-id="" >
-                        <a href="" class="flex">
-                            <span>Movies & TV</span>
-                            <span class="material-symbols-outlined drop-down-icon movies">
-                                expand_more
-                            </span>
-                        </a>
-
-                    </li>
-                    <li class="link" data-id="gaming" >
-                        <a href="" class="flex">
-                            <span> Gaming</span>
-                            <span class="material-symbols-outlined drop-down-icon">
-                                expand_more
-                            </span>
-                        </a>
-                    </li>
-                    <div class="tab-view-links">
-                        <ul>
-                            <li><a href="#">Five Nights at Freddy’s</a></li>
-                            <li><a href="">Mortal Kombat</a></li>
-                            <li><a href=""> Shark Shark</a></li>
-                            <li><a href="">The Witcher</a></li>
-                            <li><a href="">Warhammer 40000</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL GAMING</a>
+                </div>
+                <div class="dc-multi-cont hover-content" id="DC-multi">
+                    <hr>
+                    <div class="inner-cont flex">
+                        <div class="left">
+                            <ul>
+                                <li><a href="#">DC Multiverse 2-Packs</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL DC MULTIVERSE</a>
+                        </div>
+                        <div class="right">
+                            <div class="img-container">
+                                <img src="images/body/DC-multi-img.png" alt="DC Multiversre image">
+                            </div>
+                            <div class="txt-content">
+                                <p>Batman Last Knight on Earth (DC
+                                    Multiverse) Exclusive 5-Pack 7” Figures</p>
+                                <a href="" class="flex">
+                                    <span class="material-symbols-outlined right-arrow">
+                                        arrow_right
+                                    </span>
+                                    <span class="buy-now-btn">BUY NOW</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <li class="link" data-id="anime" >
-                        <a href="" class="flex">
-                            <span> Anime</span>
-                            <span class="material-symbols-outlined drop-down-icon">
-                                expand_more
-                            </span>
-                        </a>
-
-                    </li>
-                    <div class="tab-view-links">
-                        <ul>
-                            <li><a href="#">My Hero Academia</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL ANIME</a>
+                </div>
+                <div class="gaming-cont hover-content" id="gaming">
+                    <hr>
+                    <div class="inner-cont flex">
+                        <div class="left">
+                            <ul>
+                                <li><a href="#">Five Nights at Freddy’s</a></li>
+                                <li><a href="">Mortal Kombat</a></li>
+                                <li><a href=""> Shark Shark</a></li>
+                                <li><a href="">The Witcher</a></li>
+                                <li><a href="">Warhammer 40000</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL GAMING</a>
+                        </div>
+                        <div class="right">
+                            <div class="img-container">
+                                <img src="images/body/Gaming.png" alt="Gaming image">
+                            </div>
+                            <div class="txt-content">
+                                <p>Malefik Spawn (Mortal Kombat) 7” Figure</p>
+                                <a href="" class="flex">
+                                    <span class="material-symbols-outlined right-arrow">
+                                        arrow_right
+                                    </span>
+                                    <span class="buy-now-btn">BUY NOW</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <li class="link" data-id="comics" >
-                        <a href="" class="flex">
-                            <span> Comics</span>
-                            <span class="material-symbols-outlined drop-down-icon">
-                                expand_more
-                            </span>
-                        </a>
-                    </li>
-                    <div class="tab-view-links">
-                        <ul>
-                            <li><a href="#">Spawn</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL COMICS</a>
+                </div>
+                <div class="anime-cont hover-content " id="anime">
+                    <hr>
+                    <div class="inner-cont flex">
+                        <div class="left">
+                            <ul>
+                                <li><a href="#">My Hero Academia</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL ANIME</a>
+                        </div>
+                        <div class="right">
+                            <div class="img-container">
+                                <img src="images/body/anime.png" alt="Anime image">
+                            </div>
+                            <div class="txt-content">
+                                <p>All Might vs All for One 2-Pack 7” Figures</p>
+                                <a href="" class="flex">
+                                    <span class="material-symbols-outlined right-arrow">
+                                        arrow_right
+                                    </span>
+                                    <span class="buy-now-btn">BUY NOW</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <li class="link" id="6">
-                        <a href="" class="flex">
-                            <span> & More…</span>
-                            <span class="material-symbols-outlined drop-down-icon more">
-                                expand_more
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-                <hr>
-                <div class="tab-sign-in">
-                    <a href="#">SIGN IN</a>
-                    <p>or</p>
-                    <a href="#">REGISTER</a>
+                </div>
+                <div class="comics-cont hover-content" id="comics">
+                    <hr>
+                    <div class="inner-cont flex">
+                        <div class="left">
+                            <ul>
+                                <li><a href="#">Spawn</a></li>
+                            </ul>
+                            <a href="#" class="shop-btn">SHOP ALL COMICS</a>
+                        </div>
+                        <div class="right">
+                            <div class="img-container">
+                                <img src="images/body/comics.png" alt="comics image">
+                            </div>
+                            <div class="txt-content">
+                                <p>The Clown (Spawn) Deluxe Set 7” Figure</p>
+                                <a href="" class="flex">
+                                    <span class="material-symbols-outlined right-arrow">
+                                        arrow_right
+                                    </span>
+                                    <span class="buy-now-btn">BUY NOW</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
         <main class="body-cont">
             <div class="bg-image">
                 <img src="images/body/bodybg.jpg" alt="background image">
-            </div>
-            <div class="dc-multi-cont hover-content"  id="DC-multi">
-                <hr>
-                <div class="inner-cont flex">
-                    <div class="left">
-                        <ul>
-                            <li><a href="#">DC Multiverse 2-Packs</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL DC MULTIVERSE</a>
-                    </div>
-                    <div class="right">
-                        <div class="img-container">
-                            <img src="images/body/DC-multi-img.png" alt="DC Multiversre image">
-                        </div>
-                        <div class="txt-content">
-                            <p>Batman Last Knight on Earth (DC
-                                Multiverse) Exclusive 5-Pack 7” Figures</p>
-                            <a href="" class="flex">
-                                <span class="material-symbols-outlined right-arrow">
-                                    arrow_right
-                                </span>
-                                <span class="buy-now-btn">BUY NOW</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gaming-cont hover-content" id="gaming">
-                <hr>
-                <div class="inner-cont flex">
-                    <div class="left">
-                        <ul>
-                            <li><a href="#">Five Nights at Freddy’s</a></li>
-                            <li><a href="">Mortal Kombat</a></li>
-                            <li><a href=""> Shark Shark</a></li>
-                            <li><a href="">The Witcher</a></li>
-                            <li><a href="">Warhammer 40000</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL GAMING</a>
-                    </div>
-                    <div class="right">
-                        <div class="img-container">
-                            <img src="images/body/Gaming.png" alt="Gaming image">
-                        </div>
-                        <div class="txt-content">
-                            <p>Malefik Spawn (Mortal Kombat) 7” Figure</p>
-                            <a href="" class="flex">
-                                <span class="material-symbols-outlined right-arrow">
-                                    arrow_right
-                                </span>
-                                <span class="buy-now-btn">BUY NOW</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="anime-cont hover-content " id="anime">
-                <hr>
-                <div class="inner-cont flex">
-                    <div class="left">
-                        <ul>
-                            <li><a href="#">My Hero Academia</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL ANIME</a>
-                    </div>
-                    <div class="right">
-                        <div class="img-container">
-                            <img src="images/body/anime.png" alt="Anime image">
-                        </div>
-                        <div class="txt-content">
-                            <p>All Might vs All for One 2-Pack 7” Figures</p>
-                            <a href="" class="flex">
-                                <span class="material-symbols-outlined right-arrow">
-                                    arrow_right
-                                </span>
-                                <span class="buy-now-btn">BUY NOW</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="comics-cont hover-content" id="comics">
-                <hr>
-                <div class="inner-cont flex">
-                    <div class="left">
-                        <ul>
-                            <li><a href="#">Spawn</a></li>
-                        </ul>
-                        <a href="#" class="shop-btn">SHOP ALL COMICS</a>
-                    </div>
-                    <div class="right">
-                        <div class="img-container">
-                            <img src="images/body/comics.png" alt="comics image">
-                        </div>
-                        <div class="txt-content">
-                            <p>The Clown (Spawn) Deluxe Set 7” Figure</p>
-                            <a href="" class="flex">
-                                <span class="material-symbols-outlined right-arrow">
-                                    arrow_right
-                                </span>
-                                <span class="buy-now-btn">BUY NOW</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </main>
         <footer class="footer">
@@ -301,5 +300,4 @@
     </div>
     <script src="index.js"></script>
 </body>
-
 </html>
