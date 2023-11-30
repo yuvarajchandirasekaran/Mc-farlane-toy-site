@@ -53,8 +53,8 @@
 }
 @font-face {
   font-family: 'Proxima Nova Italic';
-  src: url(Proxima+Nova+Black+Italic.eot);
-  src: url(Proxima+Nova+Black+Italic.eot?#iefix) format('embedded-opentype'), url(Proxima+Nova+Black+Italic.otf) format('otf'), url(Proxima+Nova+Black+Italic.svg#Proxima%20Nova%20Black%20Italic) format('svg'), url(Proxima+Nova+Black+Italic.ttf) format('truetype'), url(Proxima+Nova+Black+Italic.woff) format('woff'), url(Proxima+Nova+Black+Italic.woff2) format('woff2');
+  src: url(font/Proxima+Nova+Black+Italic.eot);
+  src: url(font/Proxima+Nova+Black+Italic.eot?#iefix) format('embedded-opentype'), url(font/Proxima+Nova+Black+Italic.otf) format('otf'), url(font/Proxima+Nova+Black+Italic.svg#Proxima%20Nova%20Black%20Italic) format('svg'), url(font/Proxima+Nova+Black+Italic.ttf) format('truetype'), url(font/Proxima+Nova+Black+Italic.woff) format('woff'), url(font/Proxima+Nova+Black+Italic.woff2) format('woff2');
 }
 * {
   margin: 0;
